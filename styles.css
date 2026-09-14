@@ -83,3 +83,15 @@
 aside a[href="billing.html"]{display:none!important}
 .forecast-schedule-control{display:flex;align-items:center;gap:7px;color:#456b7e;font-size:12px;font-weight:700}
 .forecast-schedule-control select{min-width:210px;padding:8px 10px;border:1px solid #a9c2d2;border-radius:5px;background:#fff;color:#17364d;font:inherit;font-weight:600}
+.forecast-tier-control{display:flex;align-items:center;gap:8px;color:#456b7e;font-size:12px;font-weight:700}
+.forecast-tier-control select{min-width:180px;padding:8px 10px;border:1px solid #a9c2d2;border-radius:5px;background:#fff;color:#17364d;font:inherit;font-weight:600}
+.cf-bill-table th,.cf-bill-table td{white-space:nowrap}
+.cf-bill-row.cf-bill-level-1{background:#e2edf4;font-weight:700}
+.cf-bill-row.cf-bill-level-2{background:#eef4f8}
+.cf-bill-row.cf-bill-level-3{background:#f6f9fb}
+.cf-bill-leaf{background:#fff;font-weight:400}
+.cf-bill-level-2 td:first-child{padding-left:34px}.cf-bill-level-3 td:first-child{padding-left:58px}.cf-bill-leaf td:first-child{padding-left:82px}
+.cf-bill-toggle{border:0;background:transparent;color:#17364d;cursor:pointer;margin-right:7px}
+.cf-bill-toggle:disabled{cursor:default}
+.cf-date-edit,.cf-curve-edit{width:100%;min-width:105px;padding:6px 7px;border:1px solid #7ea9c1;border-radius:4px;background:#fff;color:#17364d;font:inherit}
+.cf-curve-edit{min-width:125px}
