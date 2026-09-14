@@ -81,3 +81,5 @@
 .estimate-grid-footer{font-size:13px;font-weight:700}
 /* Estimate Billing Structure is no longer part of the left navigation. */
 aside a[href="billing.html"]{display:none!important}
+.forecast-schedule-control{display:flex;align-items:center;gap:7px;color:#456b7e;font-size:12px;font-weight:700}
+.forecast-schedule-control select{min-width:210px;padding:8px 10px;border:1px solid #a9c2d2;border-radius:5px;background:#fff;color:#17364d;font:inherit;font-weight:600}
