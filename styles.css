@@ -79,3 +79,5 @@
 .estimate-detail-row>span{color:#456b7e;font-weight:700}
 .estimate-detail-row input{background:#fff}
 .estimate-grid-footer{font-size:13px;font-weight:700}
+/* Estimate Billing Structure is no longer part of the left navigation. */
+aside a[href="billing.html"]{display:none!important}
