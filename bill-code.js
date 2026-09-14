@@ -43,4 +43,5 @@
     document.querySelectorAll('[data-toggle]').forEach(b=>b.onclick=()=>{estimateOpen[b.dataset.toggle]=estimateOpen[b.dataset.toggle]===false;renderEstimate();});
   }
   renderEstimate();
+  const ownerNavLink=document.createElement('a');ownerNavLink.href='owner-bill-code.html';ownerNavLink.innerHTML='<span class="phase"><i>↔</i>Owner Bill Code Mapping</span>';document.querySelector('aside a[href="bill-code.html"]')?.after(ownerNavLink);
 })();
